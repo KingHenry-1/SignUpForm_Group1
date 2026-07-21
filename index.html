@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> henry </h1>
+
+  <div class="container">
+
+    <div class="left-side">
+      <div class="form-box">
+        <h1>Welcome back!</h1>
+        <p class="subtitle">Enter your Credentials to access your account</p>
+
+        <form>
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="Enter your email">
+
+          <div class="password-label-row">
+            <label for="password">Password</label>
+            <a href="#" class="forgot-link">forgot password</a>
+          </div>
+          <input type="password" id="password" placeholder="Password">
+
+          <div class="remember-row">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember for 30 days</label>
+          </div>
+
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+
+        <div class="divider">
+          <span>Or</span>
+        </div>
+
+        <div class="social-buttons">
+          <button class="social-btn">
+            <img src="https://www.google.com/favicon.ico" alt="Google">
+            Sign in with Google
+          </button>
+          <button class="social-btn">
+            <img src="https://www.apple.com/favicon.ico" alt="Apple">
+            Sign in with Apple
+          </button>
+        </div>
+
+        <p class="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <img src="image/PLANT.jpg" alt="Plant">
+    </div>
+
+  </div>
+
 </body>
 </html>
